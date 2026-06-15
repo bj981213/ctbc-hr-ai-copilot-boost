@@ -1,44 +1,13 @@
 const state = {
   items: [],
   needs: [],
-  recommended: [],
   kind: "all",
-  license: "all",
   q: "",
-  tags: new Set(),
   sort: "desc",
   favOnly: false,
   fav: new Set(JSON.parse(localStorage.getItem("ctbc.fav") || "[]")),
-  recent: JSON.parse(localStorage.getItem("ctbc.recent") || "[]"),
-  activeItem: null
+  recent: JSON.parse(localStorage.getItem("ctbc.recent") || "[]")
 };
-
-const labels = {
-  task: {
-    writing: "寫作",
-    analysis: "分析",
-    communication: "溝通",
-    planning: "規劃",
-    learning: "學習",
-    automation: "自動化",
-    strategy: "策略",
-    compliance: "法規規章",
-    recruiting: "招募面談",
-    training: "教育訓練",
-    knowledge: "知識整理"
-  },
-  tool: {
-    outlook: "Outlook",
-    teams: "Teams",
-    excel: "Excel",
-    powerpoint: "PowerPoint",
-    word: "Word",
-    general: "通用"
-  }
-};
-
-const taskOrder = ["writing", "analysis", "communication", "planning", "learning", "automation", "strategy", "compliance", "recruiting", "training", "knowledge"];
-const toolOrder = ["outlook", "teams", "excel", "powerpoint", "word", "general"];
 
 const $ = (selector) => document.querySelector(selector);
 
@@ -49,11 +18,8 @@ async function init() {
     const data = await response.json();
     state.items = data.items || [];
     state.needs = data.hrNeeds || [];
-    state.recommended = data.recommendedIds || [];
     renderNeeds();
-    renderFilters();
     bindEvents();
-    renderRecommended();
     renderLibrary();
     renderRecent();
   } catch (error) {
@@ -69,22 +35,11 @@ function renderNeeds() {
       <div class="tag-list">
         ${(need.relatedIds || []).map((id) => {
           const item = findItemById(id);
-          return item ? `<button class="mini-tag chip-link" type="button" data-preview="${escapeAttr(item.id)}">${escapeHtml(item.title)}</button>` : "";
+          return item ? `<a class="mini-tag chip-link" href="${escapeAttr(item.htmlPath)}" target="_blank" rel="noopener" data-open="${escapeAttr(item.id)}">${escapeHtml(item.title)}</a>` : "";
         }).join("")}
       </div>
     </article>
   `).join("");
-}
-
-function renderFilters() {
-  $("#taskFilters").innerHTML = taskOrder.map((key) => filterChip("task", key)).join("");
-  $("#toolFilters").innerHTML = toolOrder.map((key) => filterChip("tool", key)).join("");
-}
-
-function filterChip(type, key) {
-  const count = state.items.filter((item) => (item[`${type}Tags`] || []).includes(key)).length;
-  if (!count) return "";
-  return `<button class="chip" type="button" data-tag="${type}:${key}">${escapeHtml(labels[type][key] || key)} <span>${count}</span></button>`;
 }
 
 function bindEvents() {
@@ -97,14 +52,6 @@ function bindEvents() {
     button.addEventListener("click", () => {
       state.kind = button.dataset.kind;
       document.querySelectorAll("[data-kind]").forEach((node) => node.classList.toggle("active", node === button));
-      renderLibrary();
-    });
-  });
-
-  document.querySelectorAll("[data-license]").forEach((button) => {
-    button.addEventListener("click", () => {
-      state.license = button.dataset.license;
-      document.querySelectorAll("[data-license]").forEach((node) => node.classList.toggle("active", node === button));
       renderLibrary();
     });
   });
@@ -129,13 +76,7 @@ function bindEvents() {
   });
 
   document.addEventListener("click", handleDocumentClick);
-  $("#modalClose").addEventListener("click", closeModal);
-  $("#modal").addEventListener("click", (event) => {
-    if (event.target.id === "modal") closeModal();
-  });
-  $("#modalCopy").addEventListener("click", () => copyItem(state.activeItem));
   document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape") closeModal();
     if (event.key === "/" && document.activeElement.tagName !== "INPUT") {
       event.preventDefault();
       $("#searchInput").focus();
@@ -144,23 +85,6 @@ function bindEvents() {
 }
 
 function handleDocumentClick(event) {
-  const tagButton = event.target.closest("[data-tag]");
-  if (tagButton) {
-    const tag = tagButton.dataset.tag;
-    if (state.tags.has(tag)) state.tags.delete(tag);
-    else state.tags.add(tag);
-    tagButton.classList.toggle("active", state.tags.has(tag));
-    renderLibrary();
-    return;
-  }
-
-  const previewButton = event.target.closest("[data-preview]");
-  if (previewButton) {
-    const item = findItemById(previewButton.dataset.preview);
-    if (item) showModal(item);
-    return;
-  }
-
   const copyButton = event.target.closest("[data-copy]");
   if (copyButton) {
     const item = findItemById(copyButton.dataset.copy);
@@ -174,16 +98,11 @@ function handleDocumentClick(event) {
     return;
   }
 
-  const recentLink = event.target.closest("[data-recent]");
-  if (recentLink) {
-    const item = findItemById(recentLink.dataset.recent);
-    if (item) showModal(item);
+  const openLink = event.target.closest("[data-open]");
+  if (openLink) {
+    const item = findItemById(openLink.dataset.open);
+    if (item) addRecent(item);
   }
-}
-
-function renderRecommended() {
-  const items = state.recommended.map(findItemById).filter(Boolean);
-  $("#recommendedGrid").innerHTML = items.map(renderCard).join("");
 }
 
 function renderLibrary() {
@@ -195,16 +114,12 @@ function renderLibrary() {
 
 function filteredItems() {
   const q = state.q.toLowerCase();
-  const tags = Array.from(state.tags);
   const items = state.items.filter((item) => {
     if (state.kind !== "all" && item.kind !== state.kind) return false;
-    if (state.license !== "all" && item.license !== state.license) return false;
     if (state.favOnly && !state.fav.has(item.key)) return false;
-    if (tags.length && !tags.every((tag) => item.allTags.includes(tag))) return false;
     if (!q) return true;
     return [
       item.title,
-      item.englishTitle,
       item.preview,
       item.hrUseCase,
       ...(item.taskTags || []),
@@ -220,8 +135,7 @@ function filteredItems() {
 
 function renderCard(item) {
   const isFav = state.fav.has(item.key);
-  const licenseLabel = item.license === "required" ? "Premium" : "Basic";
-  const tagHtml = item.allTags.slice(0, 4).map((tag) => `<span class="card-tag">${escapeHtml(tagLabel(tag))}</span>`).join("");
+  const summary = item.hrUseCase || fallbackSummary(item);
   return `
     <article class="tool-card" data-kind="${escapeAttr(item.kind)}">
       <div class="card-meta">
@@ -229,36 +143,18 @@ function renderCard(item) {
         <button class="fav-btn ${isFav ? "active" : ""}" type="button" data-fav="${escapeAttr(item.key)}" aria-label="切換收藏">${isFav ? "已藏" : "收藏"}</button>
       </div>
       <h3>${escapeHtml(item.title)}</h3>
-      <p class="english-name">${escapeHtml(item.englishTitle || "")}</p>
-      <p class="preview">${escapeHtml(item.hrUseCase || item.preview || "可作為課後練習工具，依工作情境調整後貼到 Copilot 使用。")}</p>
-      <div class="card-tags">
-        <span class="license-tag ${item.license === "required" ? "required" : ""}">${licenseLabel}</span>
-        ${tagHtml}
-      </div>
+      <p class="summary">${escapeHtml(summary)}</p>
       <div class="card-actions">
-        <button type="button" data-preview="${escapeAttr(item.id)}">預覽</button>
         <button type="button" class="primary-action" data-copy="${escapeAttr(item.id)}">複製</button>
-        <a href="${escapeAttr(item.htmlPath)}" target="_blank" rel="noopener">開啟</a>
+        <a href="${escapeAttr(item.htmlPath)}" target="_blank" rel="noopener" data-open="${escapeAttr(item.id)}">開啟</a>
       </div>
     </article>
   `;
 }
 
-function showModal(item) {
-  state.activeItem = item;
-  $("#modalMeta").textContent = item.kind;
-  $("#modalTitle").textContent = item.title;
-  $("#modalFrame").src = item.htmlPath;
-  $("#modalOpen").href = item.htmlPath;
-  $("#modal").classList.add("open");
-  $("#modal").setAttribute("aria-hidden", "false");
-  addRecent(item);
-}
-
-function closeModal() {
-  $("#modal").classList.remove("open");
-  $("#modal").setAttribute("aria-hidden", "true");
-  $("#modalFrame").src = "about:blank";
+function fallbackSummary(item) {
+  const subject = item.title || "這個工具";
+  return `${subject}可作為課後延伸練習，先用非敏感範例試跑，再依中國信託 HR 的實際工作情境微調輸出。`;
 }
 
 async function copyItem(item) {
@@ -282,7 +178,6 @@ function toggleFav(key) {
   if (state.fav.has(key)) state.fav.delete(key);
   else state.fav.add(key);
   localStorage.setItem("ctbc.fav", JSON.stringify(Array.from(state.fav)));
-  renderRecommended();
   renderLibrary();
 }
 
@@ -300,32 +195,25 @@ function renderRecent() {
     $("#recentList").innerHTML = `<li>尚無瀏覽紀錄。</li>`;
     return;
   }
-  $("#recentList").innerHTML = state.recent.map((recent) => `
-    <li><a href="#recent-title" data-recent="${escapeAttr(recent.id)}">${escapeHtml(recent.title)}</a><br><span>${escapeHtml(recent.kind)}</span></li>
-  `).join("");
+  $("#recentList").innerHTML = state.recent.map((recent) => {
+    const item = findItemById(recent.id);
+    const href = item?.htmlPath || "#library";
+    return `<li><a href="${escapeAttr(href)}" target="_blank" rel="noopener" data-open="${escapeAttr(recent.id)}">${escapeHtml(recent.title)}</a><br><span>${escapeHtml(recent.kind)}</span></li>`;
+  }).join("");
 }
 
 function clearFilters() {
   state.kind = "all";
-  state.license = "all";
-  state.tags.clear();
   state.favOnly = false;
   state.q = "";
   $("#searchInput").value = "";
   document.querySelectorAll("[data-kind]").forEach((node) => node.classList.toggle("active", node.dataset.kind === "all"));
-  document.querySelectorAll("[data-license]").forEach((node) => node.classList.toggle("active", node.dataset.license === "all"));
-  document.querySelectorAll("[data-tag]").forEach((node) => node.classList.remove("active"));
   $("#favOnlyBtn").setAttribute("aria-pressed", "false");
   renderLibrary();
 }
 
 function findItemById(id) {
   return state.items.find((item) => item.id === id);
-}
-
-function tagLabel(tag) {
-  const [type, key] = tag.split(":");
-  return labels[type]?.[key] || key || tag;
 }
 
 function toast(message) {

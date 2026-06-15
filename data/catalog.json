@@ -111,8 +111,7 @@
       "id": "prompt-schedule-conflict-resolver",
       "key": "prompt-schedule-conflict-resolver",
       "kind": "Prompt",
-      "title": " 下週行程衝突排除器",
-      "englishTitle": "Schedule Conflict Resolver",
+      "title": "HR 會議排程衝突整理",
       "htmlPath": "tools/prompt/prompt-schedule-conflict-resolver.html",
       "license": "required",
       "taskTags": [
@@ -133,8 +132,7 @@
       "id": "prompt-communication-style-analyzer",
       "key": "prompt-communication-style-analyzer",
       "kind": "Prompt",
-      "title": " 分析溝通風格，量身訂製回覆",
-      "englishTitle": "Communication Style Analyzer",
+      "title": "溝通對象語氣判讀助手",
       "htmlPath": "tools/prompt/prompt-communication-style-analyzer.html",
       "license": "required",
       "taskTags": [
@@ -161,8 +159,7 @@
       "id": "prompt-word-cloud-generator",
       "key": "prompt-word-cloud-generator",
       "kind": "Prompt",
-      "title": " 文件文字雲視覺化",
-      "englishTitle": "Word Cloud Generator",
+      "title": "文件關鍵字視覺整理",
       "htmlPath": "tools/prompt/prompt-word-cloud-generator.html",
       "license": "free",
       "taskTags": [
@@ -187,8 +184,7 @@
       "id": "prompt-document-glossary-builder",
       "key": "prompt-document-glossary-builder",
       "kind": "Prompt",
-      "title": " 文件術語表自動生成",
-      "englishTitle": "Document Glossary Builder",
+      "title": "制度文件術語整理",
       "htmlPath": "tools/prompt/prompt-document-glossary-builder.html",
       "license": "required",
       "taskTags": [
@@ -213,8 +209,7 @@
       "id": "prompt-inbox-priority-analyzer",
       "key": "prompt-inbox-priority-analyzer",
       "kind": "Prompt",
-      "title": " 收件匣優先序智慧分析",
-      "englishTitle": "Inbox Priority Analyzer",
+      "title": "HR 信箱優先處理建議",
       "htmlPath": "tools/prompt/prompt-inbox-priority-analyzer.html",
       "license": "required",
       "taskTags": [
@@ -239,8 +234,7 @@
       "id": "prompt-one-on-one-agenda-generator",
       "key": "prompt-one-on-one-agenda-generator",
       "kind": "Prompt",
-      "title": " 自動生成 1:1 會議議程",
-      "englishTitle": "One On One Agenda Generator",
+      "title": "個別談話議程草稿",
       "htmlPath": "tools/prompt/prompt-one-on-one-agenda-generator.html",
       "license": "required",
       "taskTags": [
@@ -263,8 +257,7 @@
       "id": "prompt-weekly-team-pulse-survey",
       "key": "prompt-weekly-team-pulse-survey",
       "kind": "Prompt",
-      "title": " 每週團隊脈動問卷生成器",
-      "englishTitle": "Weekly Team Pulse Survey",
+      "title": "團隊脈動回饋題組",
       "htmlPath": "tools/prompt/prompt-weekly-team-pulse-survey.html",
       "license": "required",
       "taskTags": [
@@ -287,8 +280,7 @@
       "id": "prompt-role-specific-doc-summary",
       "key": "prompt-role-specific-doc-summary",
       "kind": "Prompt",
-      "title": " 依職務角色量身定制的文件摘要",
-      "englishTitle": "Role Specific Doc Summary",
+      "title": "不同職務版本摘要",
       "htmlPath": "tools/prompt/prompt-role-specific-doc-summary.html",
       "license": "required",
       "taskTags": [
@@ -313,8 +305,7 @@
       "id": "prompt-customer-issue-best-practices-doc",
       "key": "prompt-customer-issue-best-practices-doc",
       "kind": "Prompt",
-      "title": " 客戶問題最佳實踐文件生成",
-      "englishTitle": "Customer Issue Best Practices Doc",
+      "title": "員工服務知識庫草稿",
       "htmlPath": "tools/prompt/prompt-customer-issue-best-practices-doc.html",
       "license": "required",
       "taskTags": [
@@ -339,8 +330,7 @@
       "id": "prompt-meeting-briefing-generator",
       "key": "prompt-meeting-briefing-generator",
       "kind": "Prompt",
-      "title": " 商務會議前情資簡報",
-      "englishTitle": "Meeting Briefing Generator",
+      "title": "會前背景與談話重點",
       "htmlPath": "tools/prompt/prompt-meeting-briefing-generator.html",
       "license": "required",
       "taskTags": [
@@ -365,8 +355,7 @@
       "id": "prompt-guided-email-reply-assistant",
       "key": "prompt-guided-email-reply-assistant",
       "kind": "Prompt",
-      "title": " 智慧郵件回覆引導",
-      "englishTitle": "Guided Email Reply Assistant",
+      "title": "重要信件回覆草稿引導",
       "htmlPath": "tools/prompt/prompt-guided-email-reply-assistant.html",
       "license": "required",
       "taskTags": [
@@ -387,8 +376,7 @@
       "id": "prompt-email-misunderstanding-resolver",
       "key": "prompt-email-misunderstanding-resolver",
       "kind": "Prompt",
-      "title": " 郵件誤解化解術",
-      "englishTitle": "Email Misunderstanding Resolver",
+      "title": "敏感郵件降溫改寫",
       "htmlPath": "tools/prompt/prompt-email-misunderstanding-resolver.html",
       "license": "required",
       "taskTags": [
@@ -409,8 +397,7 @@
       "id": "prompt-meeting-chat-qa-summary",
       "key": "prompt-meeting-chat-qa-summary",
       "kind": "Prompt",
-      "title": " 會議聊天室問答摘要文件",
-      "englishTitle": "Meeting Chat Qa Summary",
+      "title": "會議聊天室問答整理",
       "htmlPath": "tools/prompt/prompt-meeting-chat-qa-summary.html",
       "license": "required",
       "taskTags": [
@@ -435,8 +422,7 @@
       "id": "prompt-honest-friend-mirror",
       "key": "prompt-honest-friend-mirror",
       "kind": "Prompt",
-      "title": " 誠實之友：給自己的10個真心話",
-      "englishTitle": "Honest Friend Mirror",
+      "title": "自我回顧提問清單",
       "htmlPath": "tools/prompt/prompt-honest-friend-mirror.html",
       "license": "required",
       "taskTags": [
@@ -461,8 +447,7 @@
       "id": "prompt-data-visualization-analyzer",
       "key": "prompt-data-visualization-analyzer",
       "kind": "Prompt",
-      "title": " 資料視覺化與洞察分析",
-      "englishTitle": "Data Visualization Analyzer",
+      "title": "人資資料圖表解讀",
       "htmlPath": "tools/prompt/prompt-data-visualization-analyzer.html",
       "license": "required",
       "taskTags": [
@@ -487,8 +472,7 @@
       "id": "prompt-dominant-color-extractor",
       "key": "prompt-dominant-color-extractor",
       "kind": "Prompt",
-      "title": " 圖片主色調提取工具",
-      "englishTitle": "Dominant Color Extractor",
+      "title": "活動素材色彩整理",
       "htmlPath": "tools/prompt/prompt-dominant-color-extractor.html",
       "license": "free",
       "taskTags": [
@@ -509,8 +493,7 @@
       "id": "prompt-team-chat-faq-generator",
       "key": "prompt-team-chat-faq-generator",
       "kind": "Prompt",
-      "title": " 團隊對話 FAQ 自動生成",
-      "englishTitle": "Team Chat Faq Generator",
+      "title": "Teams 對話常見問答整理",
       "htmlPath": "tools/prompt/prompt-team-chat-faq-generator.html",
       "license": "required",
       "taskTags": [
@@ -535,8 +518,7 @@
       "id": "prompt-conversation-consolidator",
       "key": "prompt-conversation-consolidator",
       "kind": "Prompt",
-      "title": " 對話彙整為單一可重用提示詞",
-      "englishTitle": "Conversation Consolidator",
+      "title": "對話紀錄轉 Prompt 草稿",
       "htmlPath": "tools/prompt/prompt-conversation-consolidator.html",
       "license": "free",
       "taskTags": [
@@ -559,8 +541,7 @@
       "id": "prompt-leadership-strengths-analysis",
       "key": "prompt-leadership-strengths-analysis",
       "kind": "Prompt",
-      "title": " 領導風格與優勢自我分析",
-      "englishTitle": "Leadership Strengths Analysis",
+      "title": "領導特質回饋整理",
       "htmlPath": "tools/prompt/prompt-leadership-strengths-analysis.html",
       "license": "required",
       "taskTags": [
@@ -587,8 +568,7 @@
       "id": "prompt-text-simplifier",
       "key": "prompt-text-simplifier",
       "kind": "Prompt",
-      "title": " 複雜文字簡化大師",
-      "englishTitle": "Text Simplifier",
+      "title": "制度文字白話改寫",
       "htmlPath": "tools/prompt/prompt-text-simplifier.html",
       "license": "free",
       "taskTags": [
@@ -611,8 +591,7 @@
       "id": "prompt-graceful-no-plant-framework",
       "key": "prompt-graceful-no-plant-framework",
       "kind": "Prompt",
-      "title": " 優雅說不：PLANT 拒絕框架",
-      "englishTitle": "Graceful No Plant Framework",
+      "title": "工作邀約婉拒草稿",
       "htmlPath": "tools/prompt/prompt-graceful-no-plant-framework.html",
       "license": "free",
       "taskTags": [
@@ -637,8 +616,7 @@
       "id": "prompt-presentation-quality-check",
       "key": "prompt-presentation-quality-check",
       "kind": "Prompt",
-      "title": " 簡報品質全面健診",
-      "englishTitle": "Presentation Quality Check",
+      "title": "簡報交付前檢查表",
       "htmlPath": "tools/prompt/prompt-presentation-quality-check.html",
       "license": "required",
       "taskTags": [
@@ -661,8 +639,7 @@
       "id": "prompt-speaker-notes-optimizer",
       "key": "prompt-speaker-notes-optimizer",
       "kind": "Prompt",
-      "title": " 簡報演講者備忘稿優化",
-      "englishTitle": "Speaker Notes Optimizer",
+      "title": "講師備忘稿潤飾",
       "htmlPath": "tools/prompt/prompt-speaker-notes-optimizer.html",
       "license": "required",
       "taskTags": [
@@ -683,8 +660,7 @@
       "id": "prompt-presentation-optimization-planner",
       "key": "prompt-presentation-optimization-planner",
       "kind": "Prompt",
-      "title": " 簡報精簡與時間優化助手",
-      "englishTitle": "Presentation Optimization Planner",
+      "title": "簡報時長與頁數調整",
       "htmlPath": "tools/prompt/prompt-presentation-optimization-planner.html",
       "license": "free",
       "taskTags": [
@@ -709,8 +685,7 @@
       "id": "prompt-excel-data-quality-audit",
       "key": "prompt-excel-data-quality-audit",
       "kind": "Prompt",
-      "title": " Excel 資料品質稽核與修復清單",
-      "englishTitle": "Excel Data Quality Audit",
+      "title": "Excel 名單資料檢核",
       "htmlPath": "tools/prompt/prompt-excel-data-quality-audit.html",
       "license": "required",
       "taskTags": [
@@ -733,8 +708,7 @@
       "id": "prompt-copilot-learning-plan",
       "key": "prompt-copilot-learning-plan",
       "kind": "Prompt",
-      "title": " M365 Copilot 個人化學習計畫",
-      "englishTitle": "Copilot Learning Plan",
+      "title": "Copilot 課後練習計畫",
       "htmlPath": "tools/prompt/prompt-copilot-learning-plan.html",
       "license": "required",
       "taskTags": [
@@ -759,8 +733,7 @@
       "id": "prompt-ocean-outlook-instructions",
       "key": "prompt-ocean-outlook-instructions",
       "kind": "Prompt",
-      "title": " OCEAN 個人化 Outlook 起草指示詞",
-      "englishTitle": "Ocean Outlook Instructions",
+      "title": "個人郵件語氣設定",
       "htmlPath": "tools/prompt/prompt-ocean-outlook-instructions.html",
       "license": "required",
       "taskTags": [
@@ -787,8 +760,7 @@
       "id": "prompt-outlook-email-summarizer",
       "key": "prompt-outlook-email-summarizer",
       "kind": "Prompt",
-      "title": " Outlook 郵件摘要與回覆草稿",
-      "englishTitle": "Outlook Email Summarizer",
+      "title": "長郵件摘要與回覆建議",
       "htmlPath": "tools/prompt/prompt-outlook-email-summarizer.html",
       "license": "required",
       "taskTags": [
@@ -811,8 +783,7 @@
       "id": "prompt-researcher-executive-brief",
       "key": "prompt-researcher-executive-brief",
       "kind": "Prompt",
-      "title": " Researcher：生成有引用來源的高管簡報",
-      "englishTitle": "Researcher Executive Brief",
+      "title": "有來源主管簡報素材",
       "htmlPath": "tools/prompt/prompt-researcher-executive-brief.html",
       "license": "required",
       "taskTags": [
@@ -837,8 +808,7 @@
       "id": "prompt-three-level-content",
       "key": "prompt-three-level-content",
       "kind": "Prompt",
-      "title": "一份內容，三種複雜度版本",
-      "englishTitle": "Three Level Content",
+      "title": "內容分眾改寫版本",
       "htmlPath": "tools/prompt/prompt-three-level-content.html",
       "license": "required",
       "taskTags": [
@@ -863,8 +833,7 @@
       "id": "prompt-day-wrap-up-prep",
       "key": "prompt-day-wrap-up-prep",
       "kind": "Prompt",
-      "title": "一鍵收工＋明日備戰計畫",
-      "englishTitle": "Day Wrap Up Prep",
+      "title": "下班前工作收斂清單",
       "htmlPath": "tools/prompt/prompt-day-wrap-up-prep.html",
       "license": "required",
       "taskTags": [
@@ -889,8 +858,7 @@
       "id": "prompt-weekly-status-report",
       "key": "prompt-weekly-status-report",
       "kind": "Prompt",
-      "title": "一鍵產出週報摘要",
-      "englishTitle": "Weekly Status Report",
+      "title": "週報內容快速整理",
       "htmlPath": "tools/prompt/prompt-weekly-status-report.html",
       "license": "required",
       "taskTags": [
@@ -917,8 +885,7 @@
       "id": "prompt-weekly-action-item-summary",
       "key": "prompt-weekly-action-item-summary",
       "kind": "Prompt",
-      "title": "一鍵彙整本週指派給我的待辦事項",
-      "englishTitle": "Weekly Action Item Summary",
+      "title": "本週待辦彙整表",
       "htmlPath": "tools/prompt/prompt-weekly-action-item-summary.html",
       "license": "required",
       "taskTags": [
@@ -943,8 +910,7 @@
       "id": "prompt-7-slide-deck-builder",
       "key": "prompt-7-slide-deck-builder",
       "kind": "Prompt",
-      "title": "七頁簡報快速產生器",
-      "englishTitle": "7 Slide Deck Builder",
+      "title": "精簡專案簡報架構",
       "htmlPath": "tools/prompt/prompt-7-slide-deck-builder.html",
       "license": "required",
       "taskTags": [
@@ -969,8 +935,7 @@
       "id": "prompt-presentation-rehearsal-coach",
       "key": "prompt-presentation-rehearsal-coach",
       "kind": "Prompt",
-      "title": "上台前讓 Copilot 當你的嚴格教練，模擬高階提問挑戰",
-      "englishTitle": "Presentation Rehearsal Coach",
+      "title": "簡報高階問答演練",
       "htmlPath": "tools/prompt/prompt-presentation-rehearsal-coach.html",
       "license": "required",
       "taskTags": [
@@ -993,8 +958,7 @@
       "id": "prompt-workday-task-prioritizer",
       "key": "prompt-workday-task-prioritizer",
       "kind": "Prompt",
-      "title": "工作日任務優先排序器",
-      "englishTitle": "Workday Task Prioritizer",
+      "title": "每日任務排序建議",
       "htmlPath": "tools/prompt/prompt-workday-task-prioritizer.html",
       "license": "required",
       "taskTags": [
@@ -1019,8 +983,7 @@
       "id": "prompt-workday-recap-summary",
       "key": "prompt-workday-recap-summary",
       "kind": "Prompt",
-      "title": "工作日訊息回顧與行動摘要",
-      "englishTitle": "Workday Recap Summary",
+      "title": "每日訊息與待辦回顧",
       "htmlPath": "tools/prompt/prompt-workday-recap-summary.html",
       "license": "required",
       "taskTags": [
@@ -1047,8 +1010,7 @@
       "id": "agent-workshop-designer",
       "key": "agent-workshop-designer",
       "kind": "Agent",
-      "title": "工作坊設計師",
-      "englishTitle": "Workshop Designer",
+      "title": "內訓工作坊設計助手",
       "htmlPath": "tools/agent/agent-workshop-designer.html",
       "license": "free",
       "taskTags": [
@@ -1071,8 +1033,7 @@
       "id": "prompt-workshop-handout-creator",
       "key": "prompt-workshop-handout-creator",
       "kind": "Prompt",
-      "title": "工作坊簡報講義產生器",
-      "englishTitle": "Workshop Handout Creator",
+      "title": "訓練講義轉製助手",
       "htmlPath": "tools/prompt/prompt-workshop-handout-creator.html",
       "license": "required",
       "taskTags": [
@@ -1101,8 +1062,7 @@
       "id": "agent-statement-of-work-agent",
       "key": "agent-statement-of-work-agent",
       "kind": "Agent",
-      "title": "工作說明書 Agent",
-      "englishTitle": "Statement Of Work Agent",
+      "title": "職務說明草稿整理",
       "htmlPath": "tools/agent/agent-statement-of-work-agent.html",
       "license": "free",
       "taskTags": [
@@ -1125,8 +1085,7 @@
       "id": "agent-document-classificator",
       "key": "agent-document-classificator",
       "kind": "Agent",
-      "title": "文件分類師",
-      "englishTitle": "Document Classificator",
+      "title": "文件分流與歸檔助手",
       "htmlPath": "tools/agent/agent-document-classificator.html",
       "license": "required",
       "taskTags": [
@@ -1149,8 +1108,7 @@
       "id": "prompt-document-best-practices-review",
       "key": "prompt-document-best-practices-review",
       "kind": "Prompt",
-      "title": "文件最佳實踐差距分析",
-      "englishTitle": "Document Best Practices Review",
+      "title": "制度文件缺口檢查",
       "htmlPath": "tools/prompt/prompt-document-best-practices-review.html",
       "license": "required",
       "taskTags": [
@@ -1173,8 +1131,7 @@
       "id": "agent-monthly-kpi-comparator",
       "key": "agent-monthly-kpi-comparator",
       "kind": "Agent",
-      "title": "月度 KPI 比較器",
-      "englishTitle": "Monthly KPI Comparator",
+      "title": "月度指標差異整理",
       "htmlPath": "tools/agent/agent-monthly-kpi-comparator.html",
       "license": "required",
       "taskTags": [
@@ -1199,8 +1156,7 @@
       "id": "agent-monthly-kpi-comparator-2",
       "key": "agent-monthly-kpi-comparator-2",
       "kind": "Agent",
-      "title": "月度 KPI 對比助手",
-      "englishTitle": "Monthly KPI Comparator",
+      "title": "月度指標比較說明",
       "htmlPath": "tools/agent/agent-monthly-kpi-comparator-2.html",
       "license": "free",
       "taskTags": [
@@ -1225,8 +1181,7 @@
       "id": "prompt-world-cup-teams-background",
       "key": "prompt-world-cup-teams-background",
       "kind": "Prompt",
-      "title": "世足應援 Teams 背景",
-      "englishTitle": "World Cup Teams Background",
+      "title": "HR 活動 Teams 背景素材",
       "htmlPath": "tools/prompt/prompt-world-cup-teams-background.html",
       "license": "free",
       "taskTags": [
@@ -1251,8 +1206,7 @@
       "id": "agent-exec-news-aggregator",
       "key": "agent-exec-news-aggregator",
       "kind": "Agent",
-      "title": "主管新聞聚合器",
-      "englishTitle": "Exec News Aggregator",
+      "title": "主管關注新聞摘要",
       "htmlPath": "tools/agent/agent-exec-news-aggregator.html",
       "license": "free",
       "taskTags": [
@@ -1267,7 +1221,7 @@
         "task:strategy",
         "tool:general"
       ],
-      "preview": "**主管新聞聚合器（Exec News Aggregator）** 透過蒐集、過濾、摘要近期、可信賴且相關的產業新聞與趨勢，協助你保持資訊靈通。 它會交付精簡、聚焦決策的更新內容，並依你的關注領域客製化， 幫助你掌握市場變化、競爭對手動態與法規異動，避免資訊過載。",
+      "preview": "**主管關注新聞摘要（Exec News Aggregator）** 透過蒐集、過濾、摘要近期、可信賴且相關的產業新聞與趨勢，協助你保持資訊靈通。 它會交付精簡、聚焦決策的更新內容，並依你的關注領域客製化， 幫助你掌握市場變化、競爭對手動態與法規異動，避免資訊過載。",
       "hrUseCase": "",
       "copyText": "start\n\n        請整理本週 半導體產業 在 AI 加速器 的最新動向，來源以 Bloomberg、Reuters 為主。\n\n        過去 14 天有哪些 競爭對手的併購或合作消息？請標出 Must-Know 等級。"
     },
@@ -1275,8 +1229,7 @@
       "id": "prompt-schedule-meeting",
       "key": "prompt-schedule-meeting",
       "kind": "Prompt",
-      "title": "用 Copilot 一鍵排會議時間",
-      "englishTitle": "Schedule Meeting",
+      "title": "會議時間協調助手",
       "htmlPath": "tools/prompt/prompt-schedule-meeting.html",
       "license": "required",
       "taskTags": [
@@ -1299,8 +1252,7 @@
       "id": "prompt-work-rhythm-analyzer",
       "key": "prompt-work-rhythm-analyzer",
       "kind": "Prompt",
-      "title": "用 Copilot 找出你的黃金工作節奏，設計專屬最佳作息",
-      "englishTitle": "Work Rhythm Analyzer",
+      "title": "工作節奏分析與安排",
       "htmlPath": "tools/prompt/prompt-work-rhythm-analyzer.html",
       "license": "required",
       "taskTags": [
@@ -1325,8 +1277,7 @@
       "id": "prompt-excel-forecasting-model",
       "key": "prompt-excel-forecasting-model",
       "kind": "Prompt",
-      "title": "用歷史資料打造 Excel 預測模型",
-      "englishTitle": "Excel Forecasting Model",
+      "title": "Excel 趨勢預測練習",
       "htmlPath": "tools/prompt/prompt-excel-forecasting-model.html",
       "license": "required",
       "taskTags": [
@@ -1349,8 +1300,7 @@
       "id": "agent-coherence-agent",
       "key": "agent-coherence-agent",
       "kind": "Agent",
-      "title": "目標對齊 Agent",
-      "englishTitle": "Coherence Agent",
+      "title": "目標一致性檢查助手",
       "htmlPath": "tools/agent/agent-coherence-agent.html",
       "license": "free",
       "taskTags": [
@@ -1365,7 +1315,7 @@
         "task:strategy",
         "tool:general"
       ],
-      "preview": "**目標對齊 Agent（Coherence Agent）** 協助團隊維持策略一致性，分析使用者貼上的目標、計畫與內容，找出落差、矛盾與隱藏依賴。透過結構化提示，協助對齊跨部門方向、化解溝通鴻溝。",
+      "preview": "**目標一致性檢查助手（Coherence Agent）** 協助團隊維持策略一致性，分析使用者貼上的目標、計畫與內容，找出落差、矛盾與隱藏依賴。透過結構化提示，協助對齊跨部門方向、化解溝通鴻溝。",
       "hrUseCase": "",
       "copyText": "繁中版：\n幫我識別所提供資訊中的錯位、矛盾和不一致之處。"
     },
@@ -1373,8 +1323,7 @@
       "id": "prompt-back-from-ooo",
       "key": "prompt-back-from-ooo",
       "kind": "Prompt",
-      "title": "休假回歸．收件匣秒追進度",
-      "englishTitle": "Back From OOO",
+      "title": "休假後信件追蹤摘要",
       "htmlPath": "tools/prompt/prompt-back-from-ooo.html",
       "license": "free",
       "taskTags": [
@@ -1397,8 +1346,7 @@
       "id": "agent-peer-feedback-agent",
       "key": "agent-peer-feedback-agent",
       "kind": "Agent",
-      "title": "同儕回饋 Agent",
-      "englishTitle": "Peer Feedback Agent",
+      "title": "同儕回饋文字助手",
       "htmlPath": "tools/agent/agent-peer-feedback-agent.html",
       "license": "free",
       "taskTags": [
@@ -1413,7 +1361,7 @@
         "task:writing",
         "tool:general"
       ],
-      "preview": "**同儕回饋 Agent（Peer Feedback）** 協助你為同事撰寫專業、用心的回饋或讚美，無論是慶賀里程碑、給予建設性建議或感謝協助。確保語氣得體、重點清晰，讓回饋既真誠又有影響力。",
+      "preview": "**同儕回饋文字助手（Peer Feedback）** 協助你為同事撰寫專業、用心的回饋或讚美，無論是慶賀里程碑、給予建設性建議或感謝協助。確保語氣得體、重點清晰，讓回饋既真誠又有影響力。",
       "hrUseCase": "產出同儕回饋或肯定訊息，適合績效與表揚情境。",
       "copyText": "繁中版：\n你能幫我針對 [特定領域/同事] 撰寫建設性的回饋嗎？"
     },
@@ -1421,8 +1369,7 @@
       "id": "prompt-faq-generator",
       "key": "prompt-faq-generator",
       "kind": "Prompt",
-      "title": "多文件 FAQ 快速產生器",
-      "englishTitle": "FAQ Generator",
+      "title": "多份文件問答草稿",
       "htmlPath": "tools/prompt/prompt-faq-generator.html",
       "license": "required",
       "taskTags": [
@@ -1451,8 +1398,7 @@
       "id": "prompt-year-end-team-message",
       "key": "prompt-year-end-team-message",
       "kind": "Prompt",
-      "title": "年末團隊感謝信產生器",
-      "englishTitle": "Year End Team Message",
+      "title": "團隊感謝信草稿",
       "htmlPath": "tools/prompt/prompt-year-end-team-message.html",
       "license": "required",
       "taskTags": [
@@ -1477,8 +1423,7 @@
       "id": "prompt-out-of-office-message",
       "key": "prompt-out-of-office-message",
       "kind": "Prompt",
-      "title": "自動休假回覆信設定",
-      "englishTitle": "Out Of Office Message",
+      "title": "休假自動回覆草稿",
       "htmlPath": "tools/prompt/prompt-out-of-office-message.html",
       "license": "required",
       "taskTags": [
@@ -1499,8 +1444,7 @@
       "id": "prompt-neurodiversity-exam-prep",
       "key": "prompt-neurodiversity-exam-prep",
       "kind": "Prompt",
-      "title": "告別死背！為你的大腦量身打造備考計畫",
-      "englishTitle": "Neurodiversity Exam Prep",
+      "title": "學習備考計畫助手",
       "htmlPath": "tools/prompt/prompt-neurodiversity-exam-prep.html",
       "license": "free",
       "taskTags": [
@@ -1525,8 +1469,7 @@
       "id": "prompt-executive-doc-summary",
       "key": "prompt-executive-doc-summary",
       "kind": "Prompt",
-      "title": "把 20 頁文件濃縮成一頁決策摘要，讓主管秒懂",
-      "englishTitle": "Executive Doc Summary",
+      "title": "長文件主管摘要",
       "htmlPath": "tools/prompt/prompt-executive-doc-summary.html",
       "license": "required",
       "taskTags": [
@@ -1551,8 +1494,7 @@
       "id": "prompt-benchmark-campaign",
       "key": "prompt-benchmark-campaign",
       "kind": "Prompt",
-      "title": "把行銷數據對標業界標竿",
-      "englishTitle": "Benchmark Campaign",
+      "title": "活動數據標竿比較",
       "htmlPath": "tools/prompt/prompt-benchmark-campaign.html",
       "license": "free",
       "taskTags": [
@@ -1573,8 +1515,7 @@
       "id": "agent-daily-challenge-agent",
       "key": "agent-daily-challenge-agent",
       "kind": "Agent",
-      "title": "每日挑戰 Agent",
-      "englishTitle": "Daily Challenge Agent",
+      "title": "每日練習任務設計",
       "htmlPath": "tools/agent/agent-daily-challenge-agent.html",
       "license": "free",
       "taskTags": [
@@ -1597,8 +1538,7 @@
       "id": "prompt-daily-news-briefing",
       "key": "prompt-daily-news-briefing",
       "kind": "Prompt",
-      "title": "每日產業新聞簡報",
-      "englishTitle": "Daily News Briefing",
+      "title": "產業新聞每日摘要",
       "htmlPath": "tools/prompt/prompt-daily-news-briefing.html",
       "license": "free",
       "taskTags": [
@@ -1623,8 +1563,7 @@
       "id": "prompt-weekly-time-categories",
       "key": "prompt-weekly-time-categories",
       "kind": "Prompt",
-      "title": "每週時間分配類別分析",
-      "englishTitle": "Weekly Time Categories",
+      "title": "每週時間運用盤點",
       "htmlPath": "tools/prompt/prompt-weekly-time-categories.html",
       "license": "required",
       "taskTags": [
@@ -1649,8 +1588,7 @@
       "id": "agent-resolution-agent",
       "key": "agent-resolution-agent",
       "kind": "Agent",
-      "title": "決心教練",
-      "englishTitle": "Resolution Agent",
+      "title": "承諾行動追蹤教練",
       "htmlPath": "tools/agent/agent-resolution-agent.html",
       "license": "free",
       "taskTags": [
@@ -1673,8 +1611,7 @@
       "id": "agent-decision-architect",
       "key": "agent-decision-architect",
       "kind": "Agent",
-      "title": "決策架構師",
-      "englishTitle": "Decision Architect",
+      "title": "決策選項整理助手",
       "htmlPath": "tools/agent/agent-decision-architect.html",
       "license": "free",
       "taskTags": [
@@ -1697,8 +1634,7 @@
       "id": "agent-your-namesake",
       "key": "agent-your-namesake",
       "kind": "Agent",
-      "title": "命名大師",
-      "englishTitle": "Your Namesake",
+      "title": "名稱與標題發想助手",
       "htmlPath": "tools/agent/agent-your-namesake.html",
       "license": "free",
       "taskTags": [
@@ -1719,8 +1655,7 @@
       "id": "agent-porter-five-forces-profiler",
       "key": "agent-porter-five-forces-profiler",
       "kind": "Agent",
-      "title": "波特五力分析師",
-      "englishTitle": "Porter Five Forces Profiler",
+      "title": "外部環境五力分析",
       "htmlPath": "tools/agent/agent-porter-five-forces-profiler.html",
       "license": "free",
       "taskTags": [
@@ -1745,8 +1680,7 @@
       "id": "agent-knowledge-extractor",
       "key": "agent-knowledge-extractor",
       "kind": "Agent",
-      "title": "知識萃取器",
-      "englishTitle": "Knowledge Extractor",
+      "title": "知識重點萃取助手",
       "htmlPath": "tools/agent/agent-knowledge-extractor.html",
       "license": "free",
       "taskTags": [
@@ -1769,8 +1703,7 @@
       "id": "agent-marketing-agent",
       "key": "agent-marketing-agent",
       "kind": "Agent",
-      "title": "社群行銷 Agent",
-      "englishTitle": "Marketing Agent",
+      "title": "社群貼文企劃助手",
       "htmlPath": "tools/agent/agent-marketing-agent.html",
       "license": "free",
       "taskTags": [
@@ -1793,8 +1726,7 @@
       "id": "agent-nda-comparison-agent",
       "key": "agent-nda-comparison-agent",
       "kind": "Agent",
-      "title": "保密協議比對 Agent",
-      "englishTitle": "NDA Comparison Agent",
+      "title": "NDA 條款差異比對",
       "htmlPath": "tools/agent/agent-nda-comparison-agent.html",
       "license": "required",
       "taskTags": [
@@ -1819,8 +1751,7 @@
       "id": "prompt-email-categorization",
       "key": "prompt-email-categorization",
       "kind": "Prompt",
-      "title": "信件主題分類一覽",
-      "englishTitle": "Email Categorization",
+      "title": "郵件主題分類表",
       "htmlPath": "tools/prompt/prompt-email-categorization.html",
       "license": "required",
       "taskTags": [
@@ -1845,8 +1776,7 @@
       "id": "prompt-email-domain-inbox-summary",
       "key": "prompt-email-domain-inbox-summary",
       "kind": "Prompt",
-      "title": "信件網域摘要",
-      "englishTitle": "Email Domain Inbox Summary",
+      "title": "信件來源網域摘要",
       "htmlPath": "tools/prompt/prompt-email-domain-inbox-summary.html",
       "license": "required",
       "taskTags": [
@@ -1871,8 +1801,7 @@
       "id": "prompt-smart-inbox-architecture",
       "key": "prompt-smart-inbox-architecture",
       "kind": "Prompt",
-      "title": "信箱規則大改造！讓 Copilot 設計你的智慧分類架構",
-      "englishTitle": "Smart Inbox Architecture",
+      "title": "信箱分類規則設計",
       "htmlPath": "tools/prompt/prompt-smart-inbox-architecture.html",
       "license": "required",
       "taskTags": [
@@ -1895,8 +1824,7 @@
       "id": "agent-policy-author-pro",
       "key": "agent-policy-author-pro",
       "kind": "Agent",
-      "title": "政策文件撰寫師",
-      "englishTitle": "Policy Author Pro",
+      "title": "人資政策草稿撰寫",
       "htmlPath": "tools/agent/agent-policy-author-pro.html",
       "license": "required",
       "taskTags": [
@@ -1917,8 +1845,7 @@
       "id": "agent-policy-simplifier",
       "key": "agent-policy-simplifier",
       "kind": "Agent",
-      "title": "政策白話翻譯師",
-      "englishTitle": "Policy Simplifier",
+      "title": "制度條文白話摘要",
       "htmlPath": "tools/agent/agent-policy-simplifier.html",
       "license": "required",
       "taskTags": [
@@ -1941,8 +1868,7 @@
       "id": "agent-event-agent",
       "key": "agent-event-agent",
       "kind": "Agent",
-      "title": "活動問答 Agent",
-      "englishTitle": "Event Agent",
+      "title": "活動現場問答助手",
       "htmlPath": "tools/agent/agent-event-agent.html",
       "license": "required",
       "taskTags": [
@@ -1957,7 +1883,7 @@
         "task:communication",
         "tool:general"
       ],
-      "preview": "活動問答 Agent 協助你快速導覽 [活動名稱]。無論你在尋找議程場次、場地資訊還是講者介紹，活動 Agent 都能確保你充分享受活動體驗。",
+      "preview": "活動現場問答助手 協助你快速導覽 [活動名稱]。無論你在尋找議程場次、場地資訊還是講者介紹，活動 Agent 都能確保你充分享受活動體驗。",
       "hrUseCase": "",
       "copyText": "這個活動是關於什麼的？\n\n活動幾點開始？\n\n有哪些值得關注的講者？"
     },
@@ -1965,8 +1891,7 @@
       "id": "agent-process-optimizer",
       "key": "agent-process-optimizer",
       "kind": "Agent",
-      "title": "流程優化師",
-      "englishTitle": "Process Optimizer",
+      "title": "流程改善建議助手",
       "htmlPath": "tools/agent/agent-process-optimizer.html",
       "license": "free",
       "taskTags": [
@@ -1991,8 +1916,7 @@
       "id": "prompt-energy-patterns",
       "key": "prompt-energy-patterns",
       "kind": "Prompt",
-      "title": "看懂自己的工作能量規律",
-      "englishTitle": "Energy Patterns",
+      "title": "工作能量模式回顧",
       "htmlPath": "tools/prompt/prompt-energy-patterns.html",
       "license": "free",
       "taskTags": [
@@ -2015,8 +1939,7 @@
       "id": "agent-your-proofreader",
       "key": "agent-your-proofreader",
       "kind": "Agent",
-      "title": "校稿助手",
-      "englishTitle": "Your Proofreader",
+      "title": "文件校稿與語氣修正",
       "htmlPath": "tools/agent/agent-your-proofreader.html",
       "license": "free",
       "taskTags": [
@@ -2037,8 +1960,7 @@
       "id": "prompt-contribution-opportunity-finder",
       "key": "prompt-contribution-opportunity-finder",
       "kind": "Prompt",
-      "title": "貢獻機會探索器",
-      "englishTitle": "Contribution Opportunity Finder",
+      "title": "貢獻亮點探索助手",
       "htmlPath": "tools/prompt/prompt-contribution-opportunity-finder.html",
       "license": "required",
       "taskTags": [
@@ -2063,8 +1985,7 @@
       "id": "agent-wellness-productivity-coach",
       "key": "agent-wellness-productivity-coach",
       "kind": "Agent",
-      "title": "健康生產力教練",
-      "englishTitle": "Wellness Productivity Coach",
+      "title": "健康工作節奏顧問",
       "htmlPath": "tools/agent/agent-wellness-productivity-coach.html",
       "license": "free",
       "taskTags": [
@@ -2087,8 +2008,7 @@
       "id": "agent-business-case-builder",
       "key": "agent-business-case-builder",
       "kind": "Agent",
-      "title": "商業提案產生器",
-      "englishTitle": "Business Case Builder",
+      "title": "提案內容架構草稿",
       "htmlPath": "tools/agent/agent-business-case-builder.html",
       "license": "free",
       "taskTags": [
@@ -2113,8 +2033,7 @@
       "id": "prompt-problem-solving-buddy",
       "key": "prompt-problem-solving-buddy",
       "kind": "Prompt",
-      "title": "問題解決腦力激盪夥伴",
-      "englishTitle": "Problem Solving Buddy",
+      "title": "問題拆解與解方發想",
       "htmlPath": "tools/prompt/prompt-problem-solving-buddy.html",
       "license": "free",
       "taskTags": [
@@ -2131,14 +2050,13 @@
       ],
       "preview": "迭代提問＋量身解法，突破思考盲點",
       "hrUseCase": "",
-      "copyText": "我需要你成為我的問題解決腦力激盪夥伴。請先問我有什麼問題或機會。然後提出 3 個最相關的問題，幫助我找到最佳解決方案。根據我的回答，提出解決我挑戰的方案，並每次都附加 3 個新問題來持續迭代解法。"
+      "copyText": "我需要你成為我的問題拆解與解方發想。請先問我有什麼問題或機會。然後提出 3 個最相關的問題，幫助我找到最佳解決方案。根據我的回答，提出解決我挑戰的方案，並每次都附加 3 個新問題來持續迭代解法。"
     },
     {
       "id": "agent-training-content-writer",
       "key": "agent-training-content-writer",
       "kind": "Agent",
-      "title": "培訓內容創作者",
-      "englishTitle": "Training Content Writer",
+      "title": "培訓教材撰寫助手",
       "htmlPath": "tools/agent/agent-training-content-writer.html",
       "license": "free",
       "taskTags": [
@@ -2161,8 +2079,7 @@
       "id": "prompt-project-pulse-weekly-update",
       "key": "prompt-project-pulse-weekly-update",
       "kind": "Prompt",
-      "title": "專案脈動週報生成器",
-      "englishTitle": "Project Pulse Weekly Update",
+      "title": "專案週報脈動整理",
       "htmlPath": "tools/prompt/prompt-project-pulse-weekly-update.html",
       "license": "required",
       "taskTags": [
@@ -2189,8 +2106,7 @@
       "id": "agent-scenario-simulator",
       "key": "agent-scenario-simulator",
       "kind": "Agent",
-      "title": "情境模擬器",
-      "englishTitle": "Scenario Simulator",
+      "title": "情境演練腳本助手",
       "htmlPath": "tools/agent/agent-scenario-simulator.html",
       "license": "free",
       "taskTags": [
@@ -2205,7 +2121,7 @@
         "task:communication",
         "tool:general"
       ],
-      "preview": "情境模擬器 Agent 協助商業使用者透過對話式 What-if 模擬，預先探索營運和財務變化的影響。透過解讀自然語言輸入，Agent 生成結構化的決策簡報，包含假設條件、敏感度分析、風險因素和建議下一步。設計用於快速探索性分析，而非取代正式的財務或營運系統。",
+      "preview": "情境演練腳本助手 Agent 協助商業使用者透過對話式 What-if 模擬，預先探索營運和財務變化的影響。透過解讀自然語言輸入，Agent 生成結構化的決策簡報，包含假設條件、敏感度分析、風險因素和建議下一步。設計用於快速探索性分析，而非取代正式的財務或營運系統。",
       "hrUseCase": "",
       "copyText": "若我們在高需求地區額外部署 50 名前線員工，服務覆蓋率和成本會有什麼影響？\n\n如果供應商延誤變動 ±5 天，利潤的風險範圍是多少？"
     },
@@ -2213,8 +2129,7 @@
       "id": "prompt-transcribe-scanned-document",
       "key": "prompt-transcribe-scanned-document",
       "kind": "Prompt",
-      "title": "掃描文件一鍵轉數位文字",
-      "englishTitle": "Transcribe Scanned Document",
+      "title": "掃描文件轉文字練習",
       "htmlPath": "tools/prompt/prompt-transcribe-scanned-document.html",
       "license": "free",
       "taskTags": [
@@ -2237,8 +2152,7 @@
       "id": "prompt-copilot-memory",
       "key": "prompt-copilot-memory",
       "kind": "Prompt",
-      "title": "啟用 Copilot Memory",
-      "englishTitle": "Copilot Memory",
+      "title": "Copilot 記憶功能設定",
       "htmlPath": "tools/prompt/prompt-copilot-memory.html",
       "license": "free",
       "taskTags": [
@@ -2259,8 +2173,7 @@
       "id": "agent-checklist-manifesto-agent",
       "key": "agent-checklist-manifesto-agent",
       "kind": "Agent",
-      "title": "清單宣言 Agent",
-      "englishTitle": "Checklist Manifesto Agent",
+      "title": "清單化工作準則助手",
       "htmlPath": "tools/agent/agent-checklist-manifesto-agent.html",
       "license": "free",
       "taskTags": [
@@ -2275,7 +2188,7 @@
         "task:automation",
         "tool:general"
       ],
-      "preview": "**清單宣言 Agent（Checklist Manifesto）** 協助使用者為複雜或高風險任務設計與審查清單，把零散待辦轉成清晰可執行的步驟。確保關鍵環節不被遺漏、邏輯順序合理，提升交付一致性與品質。",
+      "preview": "**清單化工作準則助手（Checklist Manifesto）** 協助使用者為複雜或高風險任務設計與審查清單，把零散待辦轉成清晰可執行的步驟。確保關鍵環節不被遺漏、邏輯順序合理，提升交付一致性與品質。",
       "hrUseCase": "",
       "copyText": "繁中版：\n幫我建立一份 3 人外科術前準備團隊的清單，涵蓋設備設置、消毒流程與溝通協議。"
     },
@@ -2283,8 +2196,7 @@
       "id": "agent-product-crafter",
       "key": "agent-product-crafter",
       "kind": "Agent",
-      "title": "產品規劃師",
-      "englishTitle": "Product Crafter",
+      "title": "方案構想規劃助手",
       "htmlPath": "tools/agent/agent-product-crafter.html",
       "license": "free",
       "taskTags": [
@@ -2307,8 +2219,7 @@
       "id": "agent-innovation-radar-agent",
       "key": "agent-innovation-radar-agent",
       "kind": "Agent",
-      "title": "創新雷達 Agent",
-      "englishTitle": "Innovation Radar Agent",
+      "title": "創新案例雷達",
       "htmlPath": "tools/agent/agent-innovation-radar-agent.html",
       "license": "free",
       "taskTags": [
@@ -2335,8 +2246,7 @@
       "id": "agent-prompting-mentor",
       "key": "agent-prompting-mentor",
       "kind": "Agent",
-      "title": "提示詞導師",
-      "englishTitle": "Prompting Mentor",
+      "title": "Prompt 寫法陪練",
       "htmlPath": "tools/agent/agent-prompting-mentor.html",
       "license": "free",
       "taskTags": [
@@ -2357,8 +2267,7 @@
       "id": "prompt-accessibility-review",
       "key": "prompt-accessibility-review",
       "kind": "Prompt",
-      "title": "無障礙文件審查助理",
-      "englishTitle": "Accessibility Review",
+      "title": "文件無障礙檢查",
       "htmlPath": "tools/prompt/prompt-accessibility-review.html",
       "license": "free",
       "taskTags": [
@@ -2379,8 +2288,7 @@
       "id": "prompt-email-thread-summarizer",
       "key": "prompt-email-thread-summarizer",
       "kind": "Prompt",
-      "title": "郵件串摘要與行動項目產生器",
-      "englishTitle": "Email Thread Summarizer",
+      "title": "長信串摘要與行動表",
       "htmlPath": "tools/prompt/prompt-email-thread-summarizer.html",
       "license": "required",
       "taskTags": [
@@ -2405,8 +2313,7 @@
       "id": "prompt-new-year-goals-planner",
       "key": "prompt-new-year-goals-planner",
       "kind": "Prompt",
-      "title": "新年職涯目標規劃師",
-      "englishTitle": "New Year Goals Planner",
+      "title": "年度職涯目標規劃",
       "htmlPath": "tools/prompt/prompt-new-year-goals-planner.html",
       "license": "required",
       "taskTags": [
@@ -2431,8 +2338,7 @@
       "id": "agent-news-aggregator-agent",
       "key": "agent-news-aggregator-agent",
       "kind": "Agent",
-      "title": "新聞聚合 Agent",
-      "englishTitle": "News Aggregator Agent",
+      "title": "新聞議題彙整助手",
       "htmlPath": "tools/agent/agent-news-aggregator-agent.html",
       "license": "free",
       "taskTags": [
@@ -2449,7 +2355,7 @@
         "task:strategy",
         "tool:general"
       ],
-      "preview": "**新聞聚合 Agent（Exec News Aggregator）** 主動為主管提供精簡、可信、即時的產業新聞摘要，依個人關注領域客製化內容。支援即時警示、互動式查詢與持續學習，幫助決策者快速掌握市場、競爭與法規變化，保持資訊領先。",
+      "preview": "**新聞議題彙整助手（Exec News Aggregator）** 主動為主管提供精簡、可信、即時的產業新聞摘要，依個人關注領域客製化內容。支援即時警示、互動式查詢與持續學習，幫助決策者快速掌握市場、競爭與法規變化，保持資訊領先。",
       "hrUseCase": "",
       "copyText": "繁中版：\nstart\n\n請整理本週 半導體產業 在 AI 加速器 的最新動向，來源以 Bloomberg、Reuters 為主。\n\n過去 14 天有哪些 競爭對手的併購或合作消息？請標出 Must-Know 等級。"
     },
@@ -2457,8 +2363,7 @@
       "id": "agent-meeting-prep",
       "key": "agent-meeting-prep",
       "kind": "Agent",
-      "title": "會議準備助手",
-      "englishTitle": "Meeting Prep",
+      "title": "會議準備清單助手",
       "htmlPath": "tools/agent/agent-meeting-prep.html",
       "license": "required",
       "taskTags": [
@@ -2485,8 +2390,7 @@
       "id": "prompt-meeting-follow-up-email",
       "key": "prompt-meeting-follow-up-email",
       "kind": "Prompt",
-      "title": "會議跟進信自動產出",
-      "englishTitle": "Meeting Follow Up Email",
+      "title": "會後追蹤信草稿",
       "htmlPath": "tools/prompt/prompt-meeting-follow-up-email.html",
       "license": "required",
       "taskTags": [
@@ -2511,8 +2415,7 @@
       "id": "agent-meeting-recap-companion",
       "key": "agent-meeting-recap-companion",
       "kind": "Agent",
-      "title": "會議摘要助理",
-      "englishTitle": "Meeting Recap Companion",
+      "title": "會議決議摘要整理",
       "htmlPath": "tools/agent/agent-meeting-recap-companion.html",
       "license": "free",
       "taskTags": [
@@ -2537,8 +2440,7 @@
       "id": "agent-evite",
       "key": "agent-evite",
       "kind": "Agent",
-      "title": "會議邀請設計師",
-      "englishTitle": "Evite",
+      "title": "會議邀請文案助手",
       "htmlPath": "tools/agent/agent-evite.html",
       "license": "free",
       "taskTags": [
@@ -2561,8 +2463,7 @@
       "id": "prompt-communication-style-personalizer",
       "key": "prompt-communication-style-personalizer",
       "kind": "Prompt",
-      "title": "溝通風格個人化設定",
-      "englishTitle": "Communication Style Personalizer",
+      "title": "個人溝通語氣設定",
       "htmlPath": "tools/prompt/prompt-communication-style-personalizer.html",
       "license": "required",
       "taskTags": [
@@ -2589,8 +2490,7 @@
       "id": "agent-your-problem-solver",
       "key": "agent-your-problem-solver",
       "kind": "Agent",
-      "title": "萬能解題助手",
-      "englishTitle": "Your Problem Solver",
+      "title": "工作問題解法助手",
       "htmlPath": "tools/agent/agent-your-problem-solver.html",
       "license": "free",
       "taskTags": [
@@ -2613,8 +2513,7 @@
       "id": "prompt-email-thread-stakeholder-update",
       "key": "prompt-email-thread-stakeholder-update",
       "kind": "Prompt",
-      "title": "電子郵件串利害關係人更新",
-      "englishTitle": "Email Thread Stakeholder Update",
+      "title": "利害關係人信件更新稿",
       "htmlPath": "tools/prompt/prompt-email-thread-stakeholder-update.html",
       "license": "required",
       "taskTags": [
@@ -2639,8 +2538,7 @@
       "id": "agent-team-morale-assistant",
       "key": "agent-team-morale-assistant",
       "kind": "Agent",
-      "title": "團隊士氣激勵助手",
-      "englishTitle": "Team Morale Assistant",
+      "title": "團隊激勵訊息助手",
       "htmlPath": "tools/agent/agent-team-morale-assistant.html",
       "license": "free",
       "taskTags": [
@@ -2665,8 +2563,7 @@
       "id": "prompt-recipient-style-matching",
       "key": "prompt-recipient-style-matching",
       "kind": "Prompt",
-      "title": "對方是主管還是工程師？讓 Copilot 自動調整你的溝通語氣",
-      "englishTitle": "Recipient Style Matching",
+      "title": "不同對象訊息改寫",
       "htmlPath": "tools/prompt/prompt-recipient-style-matching.html",
       "license": "required",
       "taskTags": [
@@ -2693,8 +2590,7 @@
       "id": "agent-storytelling-mentor",
       "key": "agent-storytelling-mentor",
       "kind": "Agent",
-      "title": "說故事導師",
-      "englishTitle": "Storytelling Mentor",
+      "title": "故事化表達教練",
       "htmlPath": "tools/agent/agent-storytelling-mentor.html",
       "license": "free",
       "taskTags": [
@@ -2711,7 +2607,7 @@
         "task:communication",
         "tool:powerpoint"
       ],
-      "preview": "**說故事導師（Storytelling Mentor）** 協助使用者編織動人故事、架構有影響力的演說、提升簡報與提案的表達力。適用於 pitch、領導演說、產品發表等場合，從故事骨架到台風細節都能優化。",
+      "preview": "**故事化表達教練（Storytelling Mentor）** 協助使用者編織動人故事、架構有影響力的演說、提升簡報與提案的表達力。適用於 pitch、領導演說、產品發表等場合，從故事骨架到台風細節都能優化。",
       "hrUseCase": "",
       "copyText": "繁中版：\n幫我針對目標受眾調整我的故事，並釐清情境脈絡。"
     },
@@ -2719,8 +2615,7 @@
       "id": "agent-dealcrafter-agent",
       "key": "agent-dealcrafter-agent",
       "kind": "Agent",
-      "title": "談判大師 Agent",
-      "englishTitle": "Dealcrafter Agent",
+      "title": "談判情境準備助手",
       "htmlPath": "tools/agent/agent-dealcrafter-agent.html",
       "license": "free",
       "taskTags": [
@@ -2737,7 +2632,7 @@
         "task:learning",
         "tool:general"
       ],
-      "preview": "**談判大師 Agent（Dealcrafter）** 作為談判助手，協助使用者規劃、模擬、提案與優化談判結果。引導你拆解利益、設計策略、預演對話，並在事後檢討中持續強化談判能力。",
+      "preview": "**談判情境準備助手（Dealcrafter）** 作為談判助手，協助使用者規劃、模擬、提案與優化談判結果。引導你拆解利益、設計策略、預演對話，並在事後檢討中持續強化談判能力。",
       "hrUseCase": "",
       "copyText": "模擬一個希望快速結案的客戶談判情境"
     },
@@ -2745,8 +2640,7 @@
       "id": "prompt-leveled-up-learning-badges",
       "key": "prompt-leveled-up-learning-badges",
       "kind": "Prompt",
-      "title": "學習旅程等級徽章",
-      "englishTitle": "Leveled Up Learning Badges",
+      "title": "學習歷程徽章設計",
       "htmlPath": "tools/prompt/prompt-leveled-up-learning-badges.html",
       "license": "free",
       "taskTags": [
@@ -2769,8 +2663,7 @@
       "id": "prompt-colleague-highlight-reel",
       "key": "prompt-colleague-highlight-reel",
       "kind": "Prompt",
-      "title": "幫同事寫一篇有憑有據的協作回顧",
-      "englishTitle": "Colleague Highlight Reel",
+      "title": "協作貢獻回顧草稿",
       "htmlPath": "tools/prompt/prompt-colleague-highlight-reel.html",
       "license": "free",
       "taskTags": [
@@ -2793,8 +2686,7 @@
       "id": "prompt-signature-email-style",
       "key": "prompt-signature-email-style",
       "kind": "Prompt",
-      "title": "幫每封信設定專屬撰寫風格",
-      "englishTitle": "Signature Email Style",
+      "title": "專屬郵件風格設定",
       "htmlPath": "tools/prompt/prompt-signature-email-style.html",
       "license": "free",
       "taskTags": [
@@ -2815,8 +2707,7 @@
       "id": "prompt-presentation-poll-questions",
       "key": "prompt-presentation-poll-questions",
       "kind": "Prompt",
-      "title": "簡報互動問卷設計師",
-      "englishTitle": "Presentation Poll Questions",
+      "title": "簡報互動投票題設計",
       "htmlPath": "tools/prompt/prompt-presentation-poll-questions.html",
       "license": "required",
       "taskTags": [
@@ -2841,8 +2732,7 @@
       "id": "prompt-presentation-questions",
       "key": "prompt-presentation-questions",
       "kind": "Prompt",
-      "title": "簡報互動提問產生器",
-      "englishTitle": "Presentation Questions",
+      "title": "簡報段落提問設計",
       "htmlPath": "tools/prompt/prompt-presentation-questions.html",
       "license": "required",
       "taskTags": [
@@ -2867,8 +2757,7 @@
       "id": "agent-presentation-optimizer-agent",
       "key": "agent-presentation-optimizer-agent",
       "kind": "Agent",
-      "title": "簡報最佳化 Agent",
-      "englishTitle": "Presentation Optimizer Agent",
+      "title": "簡報內容優化建議",
       "htmlPath": "tools/agent/agent-presentation-optimizer-agent.html",
       "license": "free",
       "taskTags": [
@@ -2891,8 +2780,7 @@
       "id": "prompt-translate-presentation",
       "key": "prompt-translate-presentation",
       "kind": "Prompt",
-      "title": "簡報語言一鍵翻譯",
-      "englishTitle": "Translate Presentation",
+      "title": "簡報雙語翻譯助手",
       "htmlPath": "tools/prompt/prompt-translate-presentation.html",
       "license": "required",
       "taskTags": [
@@ -2915,8 +2803,7 @@
       "id": "prompt-workplace-language-coach",
       "key": "prompt-workplace-language-coach",
       "kind": "Prompt",
-      "title": "職場外語學習教練",
-      "englishTitle": "Workplace Language Coach",
+      "title": "職場外語練習教練",
       "htmlPath": "tools/prompt/prompt-workplace-language-coach.html",
       "license": "free",
       "taskTags": [
@@ -2939,8 +2826,7 @@
       "id": "agent-say-no-coach2",
       "key": "agent-say-no-coach2",
       "kind": "Agent",
-      "title": "職場婉拒教練",
-      "englishTitle": "Say No Coach2",
+      "title": "婉拒溝通練習教練",
       "htmlPath": "tools/agent/agent-say-no-coach2.html",
       "license": "free",
       "taskTags": [
@@ -2963,8 +2849,7 @@
       "id": "agent-devils-advocate",
       "key": "agent-devils-advocate",
       "kind": "Agent",
-      "title": "魔鬼辯護人",
-      "englishTitle": "Devils Advocate",
+      "title": "反方觀點檢查助手",
       "htmlPath": "tools/agent/agent-devils-advocate.html",
       "license": "required",
       "taskTags": [
@@ -2987,8 +2872,7 @@
       "id": "agent-agent-of-change",
       "key": "agent-agent-of-change",
       "kind": "Agent",
-      "title": "變革推動教練",
-      "englishTitle": "Agent Of Change",
+      "title": "變革溝通推進助手",
       "htmlPath": "tools/agent/agent-agent-of-change.html",
       "license": "free",
       "taskTags": [
@@ -3013,8 +2897,7 @@
       "id": "prompt-email-risk-radar",
       "key": "prompt-email-risk-radar",
       "kind": "Prompt",
-      "title": "讓 Copilot 掃你的信箱，提前發現潛在風險",
-      "englishTitle": "Email Risk Radar",
+      "title": "信箱潛在風險掃描",
       "htmlPath": "tools/prompt/prompt-email-risk-radar.html",
       "license": "required",
       "taskTags": [
@@ -3039,8 +2922,7 @@
       "id": "prompt-personal-prompt-engineer",
       "key": "prompt-personal-prompt-engineer",
       "kind": "Prompt",
-      "title": "讓 Copilot 當你的 Prompt 工程師",
-      "englishTitle": "Personal Prompt Engineer",
+      "title": "Prompt 改寫顧問",
       "htmlPath": "tools/prompt/prompt-personal-prompt-engineer.html",
       "license": "free",
       "taskTags": [
@@ -3065,8 +2947,7 @@
       "id": "prompt-writing-style-prefix",
       "key": "prompt-writing-style-prefix",
       "kind": "Prompt",
-      "title": "讓 Copilot 學會你的說話方式，輸出從此像你自己寫的",
-      "englishTitle": "Writing Style Prefix",
+      "title": "個人寫作語氣複製",
       "htmlPath": "tools/prompt/prompt-writing-style-prefix.html",
       "license": "required",
       "taskTags": [
@@ -3093,8 +2974,7 @@
       "id": "prompt-prioritize-inbox",
       "key": "prompt-prioritize-inbox",
       "kind": "Prompt",
-      "title": "讓 Copilot 幫你標出必讀信件",
-      "englishTitle": "Prioritize Inbox",
+      "title": "必讀信件辨識助手",
       "htmlPath": "tools/prompt/prompt-prioritize-inbox.html",
       "license": "free",
       "taskTags": [
@@ -3117,8 +2997,7 @@
       "id": "agent-ab-testing-ideas",
       "key": "agent-ab-testing-ideas",
       "kind": "Agent",
-      "title": "A/B 測試創意產生器",
-      "englishTitle": "AB Testing Ideas",
+      "title": "活動文案測試構想",
       "htmlPath": "tools/agent/agent-ab-testing-ideas.html",
       "license": "free",
       "taskTags": [
@@ -3141,8 +3020,7 @@
       "id": "agent-agent-crafter",
       "key": "agent-agent-crafter",
       "kind": "Agent",
-      "title": "Agent 設計師",
-      "englishTitle": "Agent Crafter",
+      "title": "Agent 流程設計助手",
       "htmlPath": "tools/agent/agent-agent-crafter.html",
       "license": "free",
       "taskTags": [
@@ -3165,8 +3043,7 @@
       "id": "prompt-ai-detection-human-rewrite",
       "key": "prompt-ai-detection-human-rewrite",
       "kind": "Prompt",
-      "title": "AI 味偵測與人話改寫",
-      "englishTitle": "AI Detection Human Rewrite",
+      "title": "AI 文字自然化改寫",
       "htmlPath": "tools/prompt/prompt-ai-detection-human-rewrite.html",
       "license": "free",
       "taskTags": [
@@ -3189,8 +3066,7 @@
       "id": "agent-ai-mindset-agent",
       "key": "agent-ai-mindset-agent",
       "kind": "Agent",
-      "title": "AI 思維顧問",
-      "englishTitle": "AI Mindset Agent",
+      "title": "AI 工作思維教練",
       "htmlPath": "tools/agent/agent-ai-mindset-agent.html",
       "license": "free",
       "taskTags": [
@@ -3203,7 +3079,7 @@
         "task:learning",
         "tool:general"
       ],
-      "preview": "AI 思維顧問是你識別合適 AI 解決方案的專業嚮導。無論你在探索 Microsoft 365 Copilot，還是不確定從哪裡開始，這個助手都會引導你完成結構化的探索流程，挖掘你的目標、痛點和 AI 機會，並推薦最合適的 AI 驅動解決方案。",
+      "preview": "AI 工作思維教練是你識別合適 AI 解決方案的專業嚮導。無論你在探索 Microsoft 365 Copilot，還是不確定從哪裡開始，這個助手都會引導你完成結構化的探索流程，挖掘你的目標、痛點和 AI 機會，並推薦最合適的 AI 驅動解決方案。",
       "hrUseCase": "",
       "copyText": "我在 HR，花大量時間手動審查員工回饋問卷，AI 能幫我們簡化這個流程嗎？\n\n我是財務分析師，想加速在 Excel 準備月報的方式，有哪些 Copilot 選項？"
     },
@@ -3211,8 +3087,7 @@
       "id": "prompt-skill-learning-guide",
       "key": "prompt-skill-learning-guide",
       "kind": "Prompt",
-      "title": "Copilot 技能學習導師",
-      "englishTitle": "Skill Learning Guide",
+      "title": "Copilot 技能練習指南",
       "htmlPath": "tools/prompt/prompt-skill-learning-guide.html",
       "license": "required",
       "taskTags": [
@@ -3237,8 +3112,7 @@
       "id": "prompt-excel-executive-briefing",
       "key": "prompt-excel-executive-briefing",
       "kind": "Prompt",
-      "title": "Excel 一頁式主管決策簡報",
-      "englishTitle": "Excel Executive Briefing",
+      "title": "主管版 Excel 摘要報告",
       "htmlPath": "tools/prompt/prompt-excel-executive-briefing.html",
       "license": "required",
       "taskTags": [
@@ -3265,8 +3139,7 @@
       "id": "prompt-excel-kpi-generator",
       "key": "prompt-excel-kpi-generator",
       "kind": "Prompt",
-      "title": "Excel 表格 KPI 自動提案",
-      "englishTitle": "Excel Kpi Generator",
+      "title": "Excel KPI 欄位建議",
       "htmlPath": "tools/prompt/prompt-excel-kpi-generator.html",
       "license": "required",
       "taskTags": [
@@ -3289,8 +3162,7 @@
       "id": "prompt-excel-correlation-report",
       "key": "prompt-excel-correlation-report",
       "kind": "Prompt",
-      "title": "Excel 數值相關性分析報告",
-      "englishTitle": "Excel Correlation Report",
+      "title": "Excel 關聯訊號分析",
       "htmlPath": "tools/prompt/prompt-excel-correlation-report.html",
       "license": "required",
       "taskTags": [
@@ -3315,8 +3187,7 @@
       "id": "agent-m365-project-helper",
       "key": "agent-m365-project-helper",
       "kind": "Agent",
-      "title": "M365 專案小幫手",
-      "englishTitle": "M365 Project Helper",
+      "title": "Microsoft 協作專案助手",
       "htmlPath": "tools/agent/agent-m365-project-helper.html",
       "license": "free",
       "taskTags": [
@@ -3341,8 +3212,7 @@
       "id": "agent-okr-coach-agent",
       "key": "agent-okr-coach-agent",
       "kind": "Agent",
-      "title": "OKR 教練",
-      "englishTitle": "OKR Coach Agent",
+      "title": "OKR 對話教練",
       "htmlPath": "tools/agent/agent-okr-coach-agent.html",
       "license": "free",
       "taskTags": [
@@ -3367,8 +3237,7 @@
       "id": "prompt-one-note-task-summary",
       "key": "prompt-one-note-task-summary",
       "kind": "Prompt",
-      "title": "OneNote 待辦事項一覽表",
-      "englishTitle": "One Note Task Summary",
+      "title": "OneNote 待辦整理",
       "htmlPath": "tools/prompt/prompt-one-note-task-summary.html",
       "license": "required",
       "taskTags": [
@@ -3393,8 +3262,7 @@
       "id": "prompt-qr-code-generator",
       "key": "prompt-qr-code-generator",
       "kind": "Prompt",
-      "title": "QR Code 快速產生器",
-      "englishTitle": "QR Code Generator",
+      "title": "QR Code 產製助手",
       "htmlPath": "tools/prompt/prompt-qr-code-generator.html",
       "license": "free",
       "taskTags": [
@@ -3415,8 +3283,7 @@
       "id": "agent-smart-goals",
       "key": "agent-smart-goals",
       "kind": "Agent",
-      "title": "SMART 目標 Agent",
-      "englishTitle": "SMART Goals",
+      "title": "SMART 目標檢核助手",
       "htmlPath": "tools/agent/agent-smart-goals.html",
       "license": "free",
       "taskTags": [
@@ -3439,8 +3306,7 @@
       "id": "agent-swot-analysis-agent",
       "key": "agent-swot-analysis-agent",
       "kind": "Agent",
-      "title": "SWOT 分析 Agent",
-      "englishTitle": "SWOT Analysis Agent",
+      "title": "SWOT 情境盤點助手",
       "htmlPath": "tools/agent/agent-swot-analysis-agent.html",
       "license": "free",
       "taskTags": [
@@ -3465,8 +3331,7 @@
       "id": "prompt-group-chat-topics-overview",
       "key": "prompt-group-chat-topics-overview",
       "kind": "Prompt",
-      "title": "Teams 群組聊天主題全覽表",
-      "englishTitle": "Group Chat Topics Overview",
+      "title": "Teams 討論主題整理表",
       "htmlPath": "tools/prompt/prompt-group-chat-topics-overview.html",
       "license": "required",
       "taskTags": [
